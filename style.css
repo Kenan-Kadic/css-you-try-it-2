@@ -1,0 +1,74 @@
+.container {
+  border-top: 10px solid darkturquoise;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: aliceblue;
+  color: darkturquoise;
+}
+
+nav a {
+  text-decoration: none;
+  color: darkturquoise;
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 22px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+.post-header {
+  font-size: 40px;
+  color: darkturquoise;
+}
+
+.post-image {
+  width: 800px;
+  height: auto;
+}
+
+p {
+  font-size: 22px;
+}
+
+h3 {
+  color: darkturquoise;
+  font-size: 30px;
+}
+
+ol li:first-child {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+ol li:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 20px;
+}
+
+.dev-link {
+  text-decoration: none;
+  color: darkturquoise;
+}
+
+.unordered-list li:first-child {
+  font-weight: bold;
+}
+
+.dev-link:hover {
+  color: tomato;
+}
+
+h4 {
+  font-size: 22px;
+  color: darkturquoise;
+  text-transform: uppercase;
+}
