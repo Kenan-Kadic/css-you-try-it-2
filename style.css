@@ -1,8 +1,25 @@
 .container {
   border-top: 10px solid darkturquoise;
   font-family: sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  position: relative;
+}
+
+.post-header::before {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
 
 header {
@@ -71,4 +88,28 @@ h4 {
   font-size: 22px;
   color: darkturquoise;
   text-transform: uppercase;
+}
+
+aside {
+  border-top: 5px solid darkturquoise;
+  border-bottom: 5px solid darkturquoise;
+  position: relative;
+}
+
+.unordered-list-2 li p {
+  font-weight: bold;
+}
+
+.unordered-list-2 li a {
+  color: darkturquoise;
+  text-decoration: none;
+}
+
+button {
+  font-size: xx-large;
+  padding: 7px 15px;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  cursor: pointer;
 }
